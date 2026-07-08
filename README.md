@@ -10,6 +10,11 @@ mark in a box means "hit here." If you can read a step sequencer (Maschine, an M
 piano roll), you can read TUBS at a glance — which makes it great for sketching **drum
 grooves** and simple **basslines** while you produce.
 
+![TUBS Renderer rendering the demo note in Obsidian](docs/screenshot.png)
+
+*The included demo note rendered in Obsidian (dark theme) — colored per instrument, with
+held-bass bars, open-hat rings, and a live playhead (the lit column).*
+
 ```tubs
 @ bpm=174 div=4 title="Two-Step"
 > from Two-Step: remove a kick
