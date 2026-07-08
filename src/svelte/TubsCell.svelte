@@ -67,7 +67,9 @@
 		bottom: 1px;
 		left: 0;
 		right: 0;
-		font-size: 0.5em;
+		font-size: 0.62em;
+		font-weight: 600;
+		letter-spacing: -0.02em;
 		line-height: 1;
 		text-align: center;
 		pointer-events: none;
