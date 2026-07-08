@@ -1,0 +1,12 @@
+/*
+ * TUBS Renderer — plugin-wide styles.
+ * Most styling is component-scoped and injected from the Svelte components
+ * (esbuild `css: 'injected'`). This file only holds a couple of block-level bits.
+ */
+
+/* The code-block container Obsidian hands us. Keep the rendered grid feeling like
+   part of the note (Dataview-style), not a preformatted code region. */
+.block-language-tubs {
+	font-family: var(--font-interface);
+	line-height: normal;
+}

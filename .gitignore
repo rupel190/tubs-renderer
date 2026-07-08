@@ -1,0 +1,21 @@
+# npm
+node_modules
+
+# build output — ship via GitHub releases, not the repo
+main.js
+*.map
+
+# obsidian
+data.json
+.hotreload
+
+# editors
+.vscode
+.idea
+*.iml
+
+# os
+.DS_Store
+
+# local tooling
+.claude/settings.local.json
