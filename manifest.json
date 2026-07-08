@@ -1,7 +1,7 @@
 {
 	"id": "tubs-renderer",
 	"name": "TUBS Renderer",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"minAppVersion": "0.15.0",
 	"description": "Render TUBS (Time Unit Box System) rhythm grids from tubs code blocks, with click-to-play synthesized audio.",
 	"author": "Rupel Rupelsson",

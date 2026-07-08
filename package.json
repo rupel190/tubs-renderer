@@ -1,6 +1,6 @@
 {
 	"name": "tubs-renderer",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"description": "Render TUBS rhythm grids from tubs code blocks in Obsidian, with click-to-play Tone.js audio.",
 	"main": "main.js",
 	"scripts": {
