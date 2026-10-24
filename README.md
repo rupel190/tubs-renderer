@@ -191,8 +191,10 @@ Layout:
 ```
 src/
   main.ts            code-block processor → mounts the Svelte UI
-  settings.ts        settings tab + defaults
+  settings.ts        settings tab (the only other file that imports obsidian)
+  web.ts             entry for use outside Obsidian (package export "tubs-renderer/web")
   tubs/
+    settings.ts      settings shape + defaults
     model.ts         types + TubsError
     parse.ts         text → TubsModel (pure, no Tone/DOM)
     palette.ts       label → color (pure)
@@ -200,6 +202,10 @@ src/
     playback.ts      TubsPlayback engine (Tone) + reactive stores
   svelte/            TubsBlock / TubsGrid / TubsCell / TubsError
 ```
+
+The browser demo is built in the [rupelxyz-music](https://github.com/rupel190/rupelxyz-music) repo, which
+depends on this one and imports `tubs-renderer/web`. Keep `src/web.ts` and everything it
+reaches free of `obsidian` imports, or the demo stops building.
 
 ## Roadmap / not in v1
 
