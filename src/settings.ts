@@ -1,20 +1,6 @@
 import { App, PluginSettingTab, Setting } from "obsidian";
 import type TubsPlugin from "./main";
 
-export interface TubsSettings {
-	defaultBpm: number;
-	playbackEnabled: boolean;
-	showCountHeader: boolean;
-	defaultRoot: string;
-}
-
-export const DEFAULT_SETTINGS: TubsSettings = {
-	defaultBpm: 120,
-	playbackEnabled: true,
-	showCountHeader: true,
-	defaultRoot: "C2",
-};
-
 export class TubsSettingTab extends PluginSettingTab {
 	plugin: TubsPlugin;
 

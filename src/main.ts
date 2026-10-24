@@ -3,7 +3,8 @@ import { mount, unmount } from "svelte";
 import { parseTubs } from "./tubs/parse";
 import { TubsError } from "./tubs/model";
 import { stopActivePlayback } from "./tubs/playback";
-import { DEFAULT_SETTINGS, type TubsSettings, TubsSettingTab } from "./settings";
+import { TubsSettingTab } from "./settings";
+import { DEFAULT_SETTINGS, type TubsSettings } from "./tubs/settings";
 import TubsBlock from "./svelte/TubsBlock.svelte";
 import TubsErrorView from "./svelte/TubsError.svelte";
 

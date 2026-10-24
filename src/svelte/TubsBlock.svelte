@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onDestroy, untrack } from "svelte";
 	import type { TubsModel } from "../tubs/model";
-	import type { TubsSettings } from "../settings";
+	import type { TubsSettings } from "../tubs/settings";
 	import { TubsPlayback } from "../tubs/playback";
 	import TubsGrid from "./TubsGrid.svelte";
 

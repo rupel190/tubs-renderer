@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { Writable } from "svelte/store";
 	import type { TubsModel } from "../tubs/model";
-	import type { TubsSettings } from "../settings";
+	import type { TubsSettings } from "../tubs/settings";
 	import { colorFor } from "../tubs/palette";
 	import TubsCell from "./TubsCell.svelte";
 
