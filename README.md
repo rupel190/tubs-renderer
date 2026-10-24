@@ -10,6 +10,9 @@ mark in a box means "hit here." If you can read a step sequencer (Maschine, an M
 piano roll), you can read TUBS at a glance — which makes it great for sketching **drum
 grooves** and simple **basslines** while you produce.
 
+**Try it in your browser first: [rupel.xyz/music/tubs](https://rupel.xyz/music/tubs/).** The demo
+runs this plugin's own parser, grid and synth, so what plays there plays the same in Obsidian.
+
 ![TUBS Renderer rendering the demo note in Obsidian](docs/screenshot.png)
 
 *The included demo note rendered in Obsidian (dark theme) — colored per instrument, with
